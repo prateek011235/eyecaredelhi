@@ -1,0 +1,104 @@
+.cursor {cursor:pointer;}
+label.error {color: #F00!important;}
+input.error, textarea.error {border-color: #F00!important;}
+form .form-message{margin-top:15px; display:none;}
+a.click-here{color:#8BC34A;}
+blockquote {font-style: italic;font-family: Georgia, Times, "Times New Roman", serif;padding: 2px 0;border-style: solid;border-color: #ccc;border-width: 0;padding-left: 20px;padding-right: 8px;border-left-width: 5px;}
+
+/*** icons ***/
+.inspiro-whatsapp-icon.left{position:fixed; left:10px; bottom:10px; z-index:100; display:flex;}
+.inspiro-whatsapp-icon.right{position:fixed; right:10px; bottom:10px; z-index:100; display:flex;}
+.inspiro-whatsapp-icon div{background:rgba(204,204,204,0.8); padding:5px 10px; border-radius:25px; margin-right:10px;}
+.inspiro-whatsapp-icon div a{color:#000 !important;}
+.inspiro-whatsapp-icon img{width:25px;}
+
+/*** hours design ***/
+.openingHours{width:100%;}
+.openingHours div{font-size:14px; line-height:25px;}
+.openingHours .days{width:10%; display:inline-block;}
+.openingHours .sep{width:10%; display:inline-block; text-align:center;}
+
+/*** unpaid strip ***/
+.inspiro-unpaid-strip-overlay{position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:9999;}
+.inspiro-unpaid-strip{background:rgba(139,195,74,0.5); padding:25px; width:30%; margin:0 auto; text-align:center;position: fixed;left: 50%;top: 50%;transform: translate(-50%, -50%); color:#fff;}
+.inspiro-unpaid-strip-content-sec{margin:20px; font-size:24px; font-family:Arial, Helvetica, sans-serif;}
+.inspiro-unpaid-strip-green-title{font-weight:bold; font-size:30px; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+.inspiro-unpaid-strip-content-sec a, .inspiro-unpaid-strip-content-sec a:hover{color:#fff; font-family:Arial, Helvetica, sans-serif;}
+
+/**** social sharing icons ****/
+#SharingButtonComPopupTable .SharingButtonComplusLink{display:none!important;}
+
+.external-link{color:var(--ins-brand-color);}
+
+/*** call icon ***/
+.inspirox-call-icon{position:fixed; left:10px; bottom:50px; margin-right:100px; z-index:100;background:#666; padding:10px; border-radius:50%; cursor:pointer;}
+.inspirox-call-icon img{width:35px;}
+
+/*** footer icons ***/
+.inspirox-footer-icons{position:fixed; z-index:9999999; bottom:0; left:0; width:100%; padding:10px 10px 5px 10px; display:flex; box-shadow: 0 -6px 8px rgb(0 0 0 / 10%); background:#fff;-webkit-transition: bottom .3s;-o-transition: bottom .3s;    transition: bottom .3s;}
+.inspirox-footer-icons .inspirox-footer-icon{width:20%; text-align:center;}
+.inspirox-footer-icons .inspirox-footer-icon i{color:#414e59;font-size: 1.5rem;}
+.inspirox-footer-icons .inspirox-footer-icon i:hover{color:var(--ins-brand-color);}
+.inspirox-footer-icons.hide{display:none;}
+@font-face{font-family:icomoon;src:url(../fonts/icomoon.bc9b0bd1.eot);src:url(../fonts/icomoon.bc9b0bd1.eot#iefix) format("embedded-opentype"),url(../fonts/icomoon.7cddfaa0.woff2) format("woff2"),url(../fonts/icomoon.d50003b3.ttf) format("truetype"),url(../fonts/icomoon.d0cf9595.woff) format("woff"),url(../fonts/icomoon.091c4707.svg#icomoon) format("svg");font-weight:400;font-style:normal;font-display:swap}
+[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-footer_cHome:before{content:"\e210"}.icon-footer_cHomeActive:before{content:"\e211"}
+.icon-footer_cBook:before{content:"\e203"}.icon-footer_cBookActive:before{content:"\e204"}
+.icon-footer_cCall:before{content:"\e205"}.icon-footer_cCallActive:before{content:"\eaa1"}
+.icon-footer_cMsg:before{content:"\e212"}.icon-footer_cMsgActive:before{content:"\eaaa"}
+.icon-glLocation:before{content:"\e920"}
+
+/*** footer update ***/
+/*.footer-update-column{width:20%; float:left;}*/
+.footer-update-section{margin-bottom:25px;}
+.footer-update-section .container{display:flex;}
+.footer-update-section .footer-update-column{padding:5px; width:20%;}
+.footer-update-section a{color:#fff; font-weight:100; font-size:14px; word-wrap:break-word; line-height:30px;}
+.footer-update-section .footer-update-column-row{height:30px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+
+/*-------------------------------- Respinsive Media Styles --------------------------------*/
+
+@media only screen and (min-width: 1554px) and (max-width: 1920px) {
+}
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+}
+@media only screen and (min-width: 1200px) {
+	.inspiro-unpaid-strip-content-sec{font-size:22px;}
+}
+
+/* Medium Device: 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.inspiro-unpaid-strip-content-sec{font-size:22px;}
+}
+@media only screen and (max-width: 991px) {
+	.inspiro-unpaid-strip{padding:10px;}
+	.inspiro-unpaid-strip-green-title{font-size:25px;}
+	.inspiro-unpaid-strip-content-sec{font-size:18px;}
+}
+
+/* Tablet Device: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large Mobile: 480px */
+
+@media only screen and (max-width: 767px) {
+	.inspiro-unpaid-strip-green-title{font-size:20px;}
+	.inspiro-unpaid-strip-content-sec{font-size:14px;}
+	.inspirox-call-icon img{width:25px;}
+	.inspirox-call-icon{padding:8px;}
+	.footer-update-section .container{display:block;}
+	.footer-update-section .footer-update-column{padding:5px; width:100%;}
+	.footer-update-section .footer-update-column-row{height:auto; text-overflow:inherit; white-space:normal;}
+}
+
+/* Small Mobile: 320px */
+
+@media only screen and (max-width: 520px) {
+	.inspiro-unpaid-strip{width:60%;}
+	.inspiro-unpaid-strip-green-title{font-size:25px;}
+	.inspiro-unpaid-strip-content-sec{font-size:16px;}
+}
